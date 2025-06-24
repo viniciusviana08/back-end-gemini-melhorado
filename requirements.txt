@@ -1,0 +1,19 @@
+# requirements.txt
+
+# Framework principal para a aplicação web
+Flask
+
+# Para carregar variáveis de ambiente de arquivos .env (desenvolvimento local)
+python-dotenv
+
+# Para permitir que seu front-end (em outro domínio) se comunique com o back-end
+Flask-Cors
+
+# Biblioteca oficial do Google para interagir com a API do Gemini
+google-generativeai
+
+# Biblioteca padrão para fazer requisições HTTP (para a API da Last.fm)
+requests
+
+# Biblioteca não-oficial para interagir com a API do YouTube Music
+ytmusicapi
